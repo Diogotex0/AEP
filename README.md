@@ -348,4 +348,3 @@ Conclui-se que o Mutex é adequado para situações em que apenas uma tarefa pod
 ## 14. Observação técnica
 
 Os arquivos `.sh` executados com `&` são processos separados, não Threads reais. Entretanto, a simulação demonstra corretamente o problema de concorrência e a exclusão mútua solicitados pela atividade. O mesmo conceito pode ser aplicado entre Threads que compartilham memória dentro de um único programa.
-
