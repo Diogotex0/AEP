@@ -18,9 +18,6 @@
 - **Responsável por esta prática:** Diogo de Oliveira Teixeira
 - **Ambiente utilizado:** Oracle VM VirtualBox com Debian 13
 
-> [!important] Delimitação do trabalho
-> A instalação do Debian foi uma preparação inicial exigida para todos os grupos. A missão específica do Grupo 4 foi investigar condições de corrida e demonstrar como um Mutex impede o acesso simultâneo à região crítica. Não foram utilizados `renice` nem algoritmos de escalonamento por prioridade, pois esses assuntos pertencem ao Grupo 5.
-
 ## 2. Contexto
 
 O galpão de insumos de saúde possui tarefas de recepção, triagem e expedição executadas concorrentemente. Se duas tarefas acessarem e alterarem o registro do mesmo lote ao mesmo tempo, o sistema poderá registrar duas saídas para um único lote, deixando o estoque inconsistente.
