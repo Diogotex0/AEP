@@ -1,16 +1,12 @@
----
-title: "PBL — Grupo 4: Sincronização com Mutex"
-aliases:
-  - "Sincronização no Sistema de Gestão do Galpão"
-tags:
-  - pbl
-  - sistemas-operacionais
-  - mutex
-  - concorrencia
-  - debian
-status: concluído
-autor: Diogo de Oliveira Teixeira
----
+
+# Titulo: "PBL — Grupo 4: Sincronização com Mutex"
+
+## Participantes:
+- Diogo de Oliveira Teixeira
+- Jessica Carolino Limonge
+- Samuel Oliveira
+- Gabriel Dubinski
+
 
 # PBL — Grupo 4: Sincronização no Sistema de Gestão do Galpão
 
